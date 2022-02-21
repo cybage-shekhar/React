@@ -1,0 +1,113 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123"
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "shekhar pawar",
+      "email": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 6
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 7
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 8
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 9
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 10
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 11
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@gmail.com",
+      "password": "Password@123",
+      "id": 12
+    },
+    {
+      "name": "snail",
+      "email": "snail@cybage.com",
+      "password": "Password@123",
+      "id": 13
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Iron Man",
+      "image": "/images/iron.jfif",
+      "content": "2008's Iron Man tells the story of Tony Stark, a billionaire industrialist and genius inventor who is kidnapped and forced to build a devastating weapon. Instead, using his intelligence and ingenuity, Tony builds a high-tech suit of armor and escapes captivity. When he uncovers a nefarious plot with global implications, he dons his powerful armor and vows to protect the world as Iron Man.",
+      "id": 1
+    },
+    {
+      "title": "This is the end",
+      "image": "/images/end.jpg",
+      "content": "Six Los Angeles celebrities are stuck in James Franco's house after a series of devastating events just destroyed the city. Inside, the group not only have to face the apocalypse, but themselves.",
+      "id": 2
+    },
+    {
+      "title": "Fast and Furious",
+      "image": "/images/ff.jfif",
+      "content": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.",
+      "id": 3
+    },
+    {
+      "title": "Lucifer",
+      "image": "/images/lucifer.jfif",
+      "content": "Lucifer Morningstar has decided he's had enough of being the dutiful servant in Hell and decides to spend some time on Earth to better understand humanity. He settles in Los Angeles - the City of Angels.",
+      "id": 4
+    },
+    {
+      "title": "Shazam",
+      "image": "/images/shazam.jfif",
+      "content": "A newly fostered young boy in search of his mother instead finds unexpected super powers and soon gains a powerful enemy.",
+      "id": 5
+    }
+  ]
+}
