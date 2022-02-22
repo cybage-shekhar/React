@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import PropTypes from 'prop-types';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -40,11 +40,21 @@ function ResponsiveDrawer(props) {
   const handleClose = () => {
     setAnchorEl(null);
   };
-
   const handleLogout = () => {
     navigate("/");
     localStorage.removeItem("userData");
+    localStorage.removeItem("isLogin");
   }
+  
+  useEffect(()=>{
+    const isLogin = JSON.parse(localStorage.getItem("isLogin"));
+    if(isLogin !== true)
+    {
+      handleLogout();
+    } 
+  });
+
+  
 
   const drawer = (
     <div>
@@ -131,7 +141,7 @@ function ResponsiveDrawer(props) {
           open={mobileOpen}
           onClose={handleDrawerToggle}
           ModalProps={{
-            keepMounted: true, // Better open performance on mobile.
+            keepMounted: true,
           }}
           sx={{
             display: { xs: 'block', sm: 'none' },zIndex:10,
@@ -157,10 +167,6 @@ function ResponsiveDrawer(props) {
 }
 
 ResponsiveDrawer.propTypes = {
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
   window: PropTypes.func,
 };
 

@@ -37,6 +37,7 @@ export default function Login() {
             if(result.data.length!==0 &&result.status>=200 && result.status<=300)
             {
                 localStorage.setItem("userData",JSON.stringify(result.data[0]));
+                localStorage.setItem("isLogin",true);
                 navigate("/dashboard");
             } 
             else{
