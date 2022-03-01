@@ -13,35 +13,28 @@ import Backdrop from '@mui/material/Backdrop';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
 import Alert from '@mui/material/Alert';
+import { useDispatch, useSelector } from "react-redux";
+import { addUserAsync } from '../redux/reducers/addUser/addUser.thunks';
 import { useStyles } from '../Theme/Css';
-import {PostData} from '../Call/AxiosCall';
+import action from '../redux/reducers/addUser/addUser.actions';
 
 
 export default function SignUp({open,handleOpen,handleClose}) {
-    const [message,setMessage] = useState("");
     const classes = useStyles(); 
+    const dispatch = useDispatch();
     const [data, setData] = useState({name:"",email:"",password:""});
+    const { successMessage, errorMessage } = useSelector((state) => state.addUser);
     const handleSubmit = (e) =>{
         e.preventDefault();
-        PostData(data)
-        .then(result =>{
-        if(result.statusText === "Created" &&result.status>=200 && result.status<=300)
-        {
-           handleClose();
-        } 
-        else{
-            setMessage("User Not Registered");
-        }
-        })
-        .catch((err)=>{
-            setMessage(err.message);
-        })
-           
+        dispatch(addUserAsync(data))
+        if(successMessage)  
+          handleClose();
+          
     };
   const onChangeHandle= (event) =>{
     const {name,value} = event.target;
     setData({...data,[name]:value});
-    setMessage("");
+    dispatch(action.UserDataClear()); 
   }
   const {name,email,password} = data;
 
@@ -118,7 +111,7 @@ export default function SignUp({open,handleOpen,handleClose}) {
                 />
               </Grid>
             </Grid>
-            {message && <Alert severity="error" sx={{ mt: 1 }}>{message}</Alert>}
+            {errorMessage || successMessage && <Alert severity={successMessage ? "success" : "error"} sx={{ mt: 1 }}>{errorMessage || successMessage}</Alert>}
             <Button
               type="submit"
               fullWidth

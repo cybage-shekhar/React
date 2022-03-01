@@ -76,6 +76,138 @@
       "email": "snail@cybage.com",
       "password": "Password@123",
       "id": 13
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 14
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 15
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 16
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 17
+    },
+    {
+      "name": "akash",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 18
+    },
+    {
+      "name": "jenne",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 19
+    },
+    {
+      "name": "jean",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 20
+    },
+    {
+      "name": "james",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 21
+    },
+    {
+      "name": "james",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 22
+    },
+    {
+      "name": "jam",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 23
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 24
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 25
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 26
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 27
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 28
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 29
+    },
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 30
+    },
+    {
+      "name": "shellby",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 31
+    },
+    {
+      "name": "jack",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 32
+    },
+    {
+      "name": "jack",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 33
+    },
+    {
+      "name": "jk",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 34
+    },
+    {
+      "name": "jkk",
+      "email": "shekharpa@cybage.com",
+      "password": "Password@123",
+      "id": 35
     }
   ],
   "blogs": [
@@ -108,6 +240,20 @@
       "image": "/images/shazam.jfif",
       "content": "A newly fostered young boy in search of his mother instead finds unexpected super powers and soon gains a powerful enemy.",
       "id": 5
+    }
+  ],
+  "person": [
+    {
+      "name": "sumit pawar",
+      "email": "sumitpawar@gmail.com",
+      "address": "franc",
+      "id": 2
+    },
+    {
+      "name": "shekhar pawar",
+      "email": "shekharpa@cybage.com",
+      "address": "at/post-nagthane,tal-satara,dist-satara",
+      "id": 3
     }
   ]
 }

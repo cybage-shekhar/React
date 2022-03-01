@@ -62,7 +62,7 @@ function ResponsiveDrawer(props) {
       <Divider />
       <List>
         {sideMenuData.map((data, index) => (
-          <Link to={data.link} className={classes.LinkStyle}>
+          <Link to={data.link} className={classes.LinkStyle} key={index}>
           <ListItemButton
           selected={location.pathname === data.link}
         >

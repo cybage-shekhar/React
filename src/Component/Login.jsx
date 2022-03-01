@@ -36,11 +36,13 @@ export default function Login() {
             .then(result =>{
             if(result.data.length!==0 &&result.status>=200 && result.status<=300)
             {
+              
                 localStorage.setItem("userData",JSON.stringify(result.data[0]));
                 localStorage.setItem("isLogin",true);
                 navigate("/dashboard");
             } 
             else{
+              console.log(result);
                 setMessage("Invalid Email or Password");
             }
             })
