@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import { Box, Grid } from '@mui/material';
-import MyCard from './Card';
+import MyCard from './MyCard';
 import Alert from '@mui/material/Alert';
 import { useDispatch, useSelector } from "react-redux";
 import { loadBlogsAsync } from "../redux/reducers/blogs/blogs.thunks";

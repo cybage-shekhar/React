@@ -244,16 +244,22 @@
   ],
   "person": [
     {
-      "name": "sumit pawar",
-      "email": "sumitpawar@gmail.com",
-      "address": "franc",
+      "name": "shekhar pawar",
+      "email": "shekharpa@cybage.com",
+      "address": "at/post-nagthane,tal-satara,dist-satara",
       "id": 2
+    },
+    {
+      "name": "shekhar pawar",
+      "email": "shekharpa@cybage.co",
+      "address": "at/post-nagthane,tal-satara,dist-satara",
+      "id": 3
     },
     {
       "name": "shekhar pawar",
       "email": "shekharpa@cybage.com",
       "address": "at/post-nagthane,tal-satara,dist-satara",
-      "id": 3
+      "id": 4
     }
   ]
 }

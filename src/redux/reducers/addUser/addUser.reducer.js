@@ -7,12 +7,14 @@ const addUserReducer = (state = initialState, { type, payload }) => {
 			return {
 				...state,
 				successMessage: payload,
+				errorMessage: null,
 			};
 
 		case actionTypes.USER_POST_ERROR:
 			return {
 				...state,
 				errorMessage: payload,
+				successMessage: null,
 			};
 		case actionTypes.USER_DATA_CLEAR:
 			return{

@@ -7,12 +7,14 @@ const editUserReducer = (state = initialState, { type, payload }) => {
 			return {
 				...state,
 				editSuccessMessage: payload,
+				editErrorMessage: null,
 			};
 
 		case actionTypes.EDIT_USER_ERROR:
 			return {
 				...state,
 				editErrorMessage: payload,
+				editSuccessMessage: null,
 			};
 		case actionTypes.EDIT_DATA_CLEAR:
 			return{

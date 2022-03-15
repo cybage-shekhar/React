@@ -7,11 +7,13 @@ const deleteUserReducer = (state = initialState, { type, payload }) => {
 			return {
 				...state,
 				deleteSuccessMessage: payload,
+				deleteErrorMessage: null,
 			};
 		case actionTypes.DELETE_ERROR:
 			return {
 				...state,
 				deleteErrorMessage: payload,
+				deleteSuccessMessage:null,
 			};
 			case actionTypes.DELETE_CLEAR:
 				return{

@@ -32,7 +32,7 @@ const User = () => {
     dispatch(deleteUserAsync(id));
   };
   const editHandler = (id) => {
-    navigate(`/editUser/${id}`)
+    navigate(`/user/edit/${id}`)
   };
   const Message = () => {
     if (deleteSuccessMessage) {
@@ -68,7 +68,7 @@ const User = () => {
         maxWidth="sm"
         sx={{ zIndex: 10, marginTop: "10px" }}
       >
-        <Link to="/addUser" className={classes.LinkStyle}>
+        <Link to="/user/add" className={classes.LinkStyle}>
           <Button variant="contained" fullWidth sx={{ marginBottom: "10px" }}>
             Add User
           </Button>

@@ -3,7 +3,7 @@ import AppBar from '@mui/material/AppBar';
 
 const Footer = () => {
     return(
-        <>
+        <footer>
         <AppBar
         position="sticky"
         sx={{
@@ -17,7 +17,7 @@ const Footer = () => {
           </Typography>
           </Toolbar>
           </AppBar>
-          </>
+          </footer>
     );
 };  
 

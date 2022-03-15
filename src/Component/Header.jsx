@@ -80,7 +80,7 @@ function ResponsiveDrawer(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <>
+    <header>
       <CssBaseline />
       <AppBar
         position="fixed"
@@ -162,7 +162,7 @@ function ResponsiveDrawer(props) {
         </Drawer>
         <Toolbar />
       </Box>
-      </>
+      </header>
   );
 }
 
