@@ -111,12 +111,15 @@ const User = () => {
                   <TableCell align="center">{row.email}</TableCell>
                   <TableCell align="center">{row.address}</TableCell>
                   <TableCell align="center">
+                    <td>
                     <Button
                       variant="contained"
                       onClick={() => editHandler(row.id)}
                     >
                       Edit
                     </Button>
+                    </td>
+                    <td>
                     <Button
                       variant="contained"
                       sx={{ backgroundColor: "red" }}
@@ -124,6 +127,7 @@ const User = () => {
                     >
                       Delete
                     </Button>
+                    </td>
                   </TableCell>
                 </TableRow>
               ))}

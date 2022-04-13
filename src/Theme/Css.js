@@ -5,35 +5,6 @@ export const useStyles = makeStyles(() => ({
     fontWeight: 'bold !important',
     color: 'white !important',
   },
-  ContainerStyle: {
-    width: '100vw !important',
-    minHeight: '100vh',
-  },
-  InnerGrid: {
-    boxShadow: '2px 2px !important',
-    minWidth: '40vw',
-    minHeight: '45vh',
-    borderRadius: '5px',
-    backgroundColor: '#1976d2',
-  },
-  GridItem: {
-    width: '60% !important',
-  },
-  TitleGrid:{
-    marginTop: '6px !important',
-    marginBottom: '6px',
-  },
-  ButtonGrid:{
-    marginTop: '20px !important',
-  },
-  ButtonStyle: {
-    marginLeft: '7px !important', 
-    marginRight: '7px',
-
-  },
-  InputText:{
-    backgroundColor: 'white',
-  },
   LinkStyle:{
     textDecoration: 'none',
     color:'black',

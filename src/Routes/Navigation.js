@@ -18,8 +18,8 @@ import React, { useEffect } from "react";
     ReactGA.pageview(location.pathname); 
     ReactGA.event({
       category: 'Links',
-      action: location.pathname,
-      label: location.pathname,
+      action: "Button clicked",
+      label: "pathname",
       value: location.pathname
     });
   },[location.pathname]);
